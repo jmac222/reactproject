@@ -1,0 +1,28 @@
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 1px solid steelblue;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header button {
+  height: 50px;
+  width: 100px;
+  background-color: red;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 15px;
+}
+/*# sourceMappingURL=style.css.map */
